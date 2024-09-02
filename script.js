@@ -6,17 +6,21 @@ document.getElementById('verificationForm').addEventListener('submit', function(
     const internRole = document.getElementById('internRole').value;
     
     const internsData = {
-        "john_doe": {
-            name: "John Doe",
-            duration: "June 2023 - August 2023",
-            role: "Software Development Intern"
+        "suraj_kumar_sahoo": {
+            name: "Suraj Kumar Sahoo",
+            duration: "June - August",
+            role: "Management"
         },
         "creta": {
             name: "Creta",
             duration: "June - August",
             role: "Designer"
         },
-        // Add more interns here
+        "guru_prasad_panda": {
+            name: "Guru Prasad Panda",
+            duration: "June - August",
+            role: "Designer"
+        },
     };
 
     // Verification logic
